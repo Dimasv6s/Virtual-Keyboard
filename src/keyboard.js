@@ -1,8 +1,5 @@
 export default function getKeyboard(x) {
   return `
-  <div class="wrapper">
-  <textarea autofocus></textarea>
-  <div class="keyboard">
     <div class="row">
       <div class="key backquote" data-index="Backquote"><span>${x[0]}</span></div>
       <div class="key" data-index="Digit1"><span>${x[1]}</span></div>
@@ -68,7 +65,7 @@ export default function getKeyboard(x) {
     </div>
     <div class="row">
       <div class="key ctrl-left" data-index="ControlLeft"><span>${x[55]}</span></div>
-      <div class="key win" data-index="Windows"><span>${x[56]}</span></div>
+      <div class="key win" data-index="MetaLeft"><span>${x[56]}</span></div>
       <div class="key alt-left" data-index="AltLeft"><span>${x[57]}</span></div>
       <div class="key space" data-index="Space"><span>${x[58]}</span></div>
       <div class="key alt-right" data-index="AltRight"><span>${x[59]}</span></div>
@@ -77,9 +74,5 @@ export default function getKeyboard(x) {
       <div class="key right" data-index="ArrowRight"><span>${x[62]}</span></div>
       <div class="key ctrl-right" data-index="ControlRight"><span>${x[63]}</span></div>
     </div>
-    </div>
-    <p>Виртуальная клавиатура создана на ОС Windows</p>
-    </div>
-  </div>
-  </div>`;
+  `;
 }
