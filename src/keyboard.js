@@ -15,7 +15,6 @@ export default function getKeyboard(x) {
       <div class="key" data-index="Minus"><span>${x[11]}</span></div>
       <div class="key" data-index="Equal"><span>${x[12]}</span></div>
       <div class="key backspace" data-index="Backspace"><span>${x[13]}</span></div>
-      <div class="key delete" data-index="Delete"><span>${x[14]}</span></div>
     </div>
     <div class="row">
       <div class="key tab" data-index="Tab"><span>${x[15]}</span></div>
